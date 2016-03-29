@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Student Course Addition</title>
+	
+	<script src="js/jquery-min.js"></script>
+	<script src="js/polyfill.js"></script>
+	<script src="js/coursepost.js"></script>
+</head>	
+<body>
+
+<h1>StudentAddCourseForm</h1>
+
+<form id="AddCourse" name="AddCourse" action="#">
+<table>
+<tr>
+	<td>StudentId</td>
+	<td><input type="text" name="studentid" id="studentid" maxlength="50" value="11"></td>
+</tr>
+<tr>
+	<td>SectionId</td>
+	<td><input type="text" name="sectionid" id="sectionid" maxlength="10" value="2"></td>
+</tr>
+<tr>
+	<td>CourseCode</td>
+	<td><input type="text" name="coursecode" id="coursecode" maxlength="50" value="CMPE290"></td>
+</tr>
+<tr>
+	<td>Term</td>
+	<td><input type="text" name="term" id="term" maxlength="10" value="FALL"></td>
+</tr>
+<tr>
+	<td>Grade</td>
+	<td><input type="text" name="grade" id="grade" maxlength="5" value="NA"></td>
+</tr>
+
+<tr>
+	<td></td>
+	<td><input type="button" name="submit" id="submit" value="Submit"> </td>
+</tr>
+
+</table>
+</form>
+
+<br />
+<div id="div_ajaxResponse"></div>
+
+</body>
+</html>
